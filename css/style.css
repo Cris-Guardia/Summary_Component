@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    min-height: 380px;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #ddd;
+    background-color: #f7f7f7;
+}
+
+main aside{
+    
+    width: 50%;
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 380px;
+    
+    padding: 10px;
+    
+    box-sizing: border-box;
+    /*background-color: #b80d57;
+    background-color: #f8615a;
+    background-color: #ffd868;*/
+    
+}
+
+.results{
+    border-radius: 20px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+    color: #eee;
+    background-image: linear-gradient(#923b85, #721b65);
+}
+
+.results *{
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+
+.results h3{
+    width: 100%;
+}
+
+.results .points-section{
+    width: 150px;
+    height: 150px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 100%;
+    background-color: #721b65;
+}
+
+.results .points-section div{
+    text-align: center;
+}
+
+.results .points-section div h2{
+    width: 100%;
+    font-size: 3rem;
+}
+
+/*
+.summary{
+    display: flex;
+    color: #222;
+    background-color: aquamarine;
+}
+
+.summary h3{
+    font-size: 2rem;
+}
+
+.summary button{
+    color: #eee;
+    background-color: #222;
+}
+
+.summary article{
+    display: flex;
+    justify-content: space-between;
+}*/
+
+main .formularios{
+    width: 50%;
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 380px;
+    
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+
+    box-sizing: border-box;
+    /*background-color: #b80d57;
+    background-color: #ffd868;
+    background-color: #f8615a;*/
+    color: #333;
+}
+
+main .formularios h3{
+    width: 100%;
+    font-size: 2rem;
+    text-align: left;
+}
+
+main .formularios label{
+    width: 95%;
+    height: 30%;
+    padding: 5px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border-radius: 10px;
+    background-color: #ddd;
+}
+
+main .formularios label *{
+    border: none;
+}
+
+main .formularios label input{
+    width: 80%;
+    height: 100%;
+
+    padding: 10px;
+    
+    border: none;
+    text-align: end;
+    color: #333;
+    background-color: transparent;
+}
+
+main .formularios button{
+    width: 80%;
+    padding: 10px;
+
+    border: none;
+    border-radius: 20px;
+    
+    color: #eee;
+    background-color: #444;
+}
+
+main .formularios .reaction{
+    background-color: rgb(255, 198, 198);
+}
+
+main .formularios .memory{
+    background-color: #ffecb3;
+}
+
+main .formularios .verbal{
+    background-color: rgb(207, 255, 202);
+}
+
+main .formularios .visual{
+    background-color: rgb(202, 219, 255);
+}
+
+main .formularios label input:focus{
+    outline: none;
+}
+
+main .formularios label:hover{
+    cursor: text;
+}
